@@ -1,0 +1,251 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1408.8,1938.4" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="608,1873.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Default="508" Name="amount" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:Comment sap:VirtualizedContainerService.HintSize="545.6,88" sap2010:WorkflowViewState.IdRef="Comment_1" Text="220701203 Praveen Kumar S CSE-D" />
+    <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="545.6,1696.8" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="https://www.tnebnet.org/awp/tariffMaster">
+      <ui:OpenBrowser.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="512,1548" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="units" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'SELECT  calculator:tari...'" sap:VirtualizedContainerService.HintSize="449.6,139.2" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:Click.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:Click.CursorPosition>
+              <ui:Click.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="722ea272-7d14-472a-9c57-1bc653e864e4" InformativeScreenshot="9ee4c7b9d18bda47386febcaf269d4bd" Selector="&lt;webctrl tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='calculator:tarifftype' tableRow='1' tag='SELECT' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:Click.Target>
+            </ui:Click>
+            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'SELECT  calculator:mode'" sap:VirtualizedContainerService.HintSize="449.6,139.2" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:Click.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:Click.CursorPosition>
+              <ui:Click.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a0bbec27-1d3c-4b7b-a22b-e8505db7917c" InformativeScreenshot="ba59a2b54cc033df43cc8a3d86ddbbd8" Selector="&lt;webctrl tableRow='3' tag='TABLE' /&gt;&lt;webctrl id='calculator:mode' tableRow='1' tag='SELECT' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:Click.Target>
+            </ui:Click>
+            <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="449.6,273.6" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter the Consumer units" Title="Units">
+              <ui:InputDialog.Result>
+                <OutArgument x:TypeArguments="x:String">[units]</OutArgument>
+              </ui:InputDialog.Result>
+            </ui:InputDialog>
+            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  calculator:unit'" sap:VirtualizedContainerService.HintSize="449.6,188" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="[units]">
+              <ui:TypeInto.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="07f4698d-b63e-470a-94e3-e13d7e33f442" InformativeScreenshot="814bd00c6fb5763813a7e052cc3d2665" Selector="&lt;webctrl tableRow='7' tag='TABLE' /&gt;&lt;webctrl id='calculator:unit' tableRow='1' tag='INPUT' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:TypeInto.Target>
+            </ui:TypeInto>
+            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'SPAN'" sap:VirtualizedContainerService.HintSize="449.6,139.2" sap2010:WorkflowViewState.IdRef="Click_7" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:Click.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:Click.CursorPosition>
+              <ui:Click.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a733fe8b-5c4c-41cc-abdd-8ca740a5aed3" InformativeScreenshot="a5249906e53cd6c2729d7710b3ac3055" Selector="&lt;webctrl idx='2' tableRow='4' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SPAN' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:Click.Target>
+            </ui:Click>
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: TANGEDCO Online Payment" sap:VirtualizedContainerService.HintSize="449.6,580" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="47f09fb1-dfb5-4af4-a2fb-4457bc843855" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,340" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'SPAN'" sap:VirtualizedContainerService.HintSize="353.6,139.2" sap2010:WorkflowViewState.IdRef="GetValue_1">
+                      <ui:GetValue.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c6768441-ca13-413f-a3ed-140d993b0170" InformativeScreenshot="a32bfe615943eb6c1dd058ac2368a12b" Selector="&lt;webctrl aaname='From Unit To Unit Units Rate Amount' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table' tableRow='1' tag='TABLE' /&gt;&lt;webctrl aaname='705' tableRow='5' tag='SPAN' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:GetValue.Target>
+                      <ui:GetValue.Value>
+                        <OutArgument x:TypeArguments="x:String">[amount]</OutArgument>
+                      </ui:GetValue.Value>
+                    </ui:GetValue>
+                    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="353.6,110.4" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;The total amount is &quot; + amount]" />
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="-9, -9, 1938, 1098" BrowserType="Edge" IconBase64="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" InformativeScreenshot="879dbdc010e8deef5cc199171b17f8df.jpg" Selector="&lt;html app='msedge.exe' title='TANGEDCO Online Payment' /&gt;" Title="TANGEDCO Online Payment" Url="https://www.tnebnet.org/awp/tariffMaster?execution=e2s2" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </ui:OpenBrowser.Body>
+    </ui:OpenBrowser>
+  </Sequence>
+</Activity>
